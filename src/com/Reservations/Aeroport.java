@@ -5,16 +5,18 @@ import java.util.Collection;
 
 public class Aeroport {
     private String nomA;
-    private Ville ville;
+    private Collection<Ville> ville = new ArrayList<>();
     private Collection<Vols> vols = new ArrayList<>();
+
+
     public Aeroport() {
     }
 
-    public Ville getVille() {
+    public Collection<Ville> getVille() {
         return ville;
     }
 
-    public void setVille(Ville ville) {
+    public void setVille(Collection<Ville> ville) {
         this.ville = ville;
     }
 
@@ -28,5 +30,13 @@ public class Aeroport {
 
     public Aeroport(String nomA) {
         this.nomA = nomA;
+    }
+
+    public Collection<Vols> getVols() {
+        return vols;
+    }
+
+    public void setVols(Collection<Vols> vols) {
+        this.vols = vols;
     }
 }

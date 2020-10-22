@@ -9,14 +9,14 @@ public class Escale {
     private ZonedDateTime Eduree;
 
     private Aeroport aeroport; //classe association
-    private Vols vol; //classe association
+
 
     public Escale(ZonedDateTime earrive, ZonedDateTime edepart, ZonedDateTime eduree, Aeroport aeroport, Vols vol) {
         Earrive = earrive;
         Edepart = edepart;
         Eduree = eduree;
         this.aeroport = aeroport;
-        this.vol = vol;
+
     }
 
     public ZonedDateTime getEarrive() {
@@ -51,12 +51,8 @@ public class Escale {
         this.aeroport = aeroport;
     }
 
-    public Vols getVol() {
-        return vol;
-    }
-
-    public void setVol(Vols vol) {
-        this.vol = vol;
+    public ZonedDateTime getEduree() {
+        return Eduree;
     }
 }
 

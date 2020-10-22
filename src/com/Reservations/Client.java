@@ -1,8 +1,12 @@
 package com.Reservations;
 
+import java.util.ArrayList;
+import java.util.Collection;
+
 public class Client {
     private String nom,ref,contact;
     private float paiement;
+    private Collection<Reservation> reservations = new ArrayList<>();
 
     public Client(String nom, String ref, String contact, float paiement) {
         this.nom = nom;

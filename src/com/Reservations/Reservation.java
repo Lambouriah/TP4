@@ -5,6 +5,8 @@ import java.time.ZonedDateTime;
 public class Reservation {
     private int numR;
     private Client client;
+    private Passagers passagers;
+    private EtatReservation etatReservation;
     private ZonedDateTime dateR;
 
     public Reservation(int numR, ZonedDateTime dateR) {

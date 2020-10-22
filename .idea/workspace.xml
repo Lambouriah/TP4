@@ -20,45 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6468513-ffb5-4086-b04c-4656f9286865" name="Default Changelist" comment="commit du TP4 creation de vols et de Compagnie">
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/lamiathomas/Aeroport.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/lamiathomas/Client.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/lamiathomas/Compagnie.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/lamiathomas/Escale.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/lamiathomas/EtatReservation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/lamiathomas/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/lamiathomas/Passagers.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/lamiathomas/Reservation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/lamiathomas/Ville.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/lamiathomas/Vols.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/lamiathomas/Aeroport.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/lamiathomas/Client.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/lamiathomas/Compagnie.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/lamiathomas/Escale.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/lamiathomas/EtatReservation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/lamiathomas/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/lamiathomas/Passagers.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/lamiathomas/Reservation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/lamiathomas/Ville.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/lamiathomas/Vols.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Reservations/Aeroport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Reservations/Compagnie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Reservations/EtatReservation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Reservations/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Reservations/Saut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Reservations/Trajet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Reservations/Vols.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Reservations/Etape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TP4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lamiathomas/Aeroport.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lamiathomas/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Reservations/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lamiathomas/Compagnie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lamiathomas/Escale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Reservations/Escale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lamiathomas/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lamiathomas/Passagers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Reservations/Passagers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lamiathomas/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Reservations/Reservation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lamiathomas/Ville.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Reservations/Ville.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lamiathomas/Vol.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Reservations/Aeroport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Reservations/Aeroport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Reservations/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Reservations/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Reservations/Escale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Reservations/Escale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Reservations/EtatReservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Reservations/EtatReservation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Reservations/Passagers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Reservations/Passagers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Reservations/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Reservations/Reservation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Reservations/Saut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Reservations/Saut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Reservations/Trajet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Reservations/Trajet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Reservations/Ville.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Reservations/Ville.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Reservations/Vols.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Reservations/Vols.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603031457504</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit du TP4 creation de vols et de Compagnie">
+      <created>1603367062429</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603367062429</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,10 +178,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1603029967915" />
-    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1603366554350">
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1603371649290">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1603366554350" />
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1603371649290" />
     <state x="184" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603347812394">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

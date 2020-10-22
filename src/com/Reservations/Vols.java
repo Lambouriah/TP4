@@ -1,6 +1,7 @@
 package com.Reservations;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 
 public class Vols {
@@ -12,7 +13,8 @@ public class Vols {
     private Aeroport arrivee;
     private Compagnie compagnie;
     private Trajet trajet;
-    private List<Aeroport> vols = new ArrayList<>(); //agregation
+    private List<Aeroport> aeroports = new ArrayList<>(); //agregation
+    private Collection<Escale> escales = new ArrayList<>();
 
     public Vols() {
     }

@@ -1,11 +1,14 @@
 package com.Reservations;
 
 import java.time.Duration;
+import java.util.ArrayList;
+import java.util.Collection;
 
 public class Trajet {
     private Duration duree;
     private int nbEscale;
     private Vols vols;
+    private Collection<Saut> sauts = new ArrayList<>();
 
     public Trajet() {
     }
@@ -32,5 +35,13 @@ public class Trajet {
 
     public void setVols(Vols vols) {
         this.vols = vols;
+    }
+
+    public Collection<Saut> getSauts() {
+        return sauts;
+    }
+
+    public void setSauts(Collection<Saut> sauts) {
+        this.sauts = sauts;
     }
 }
