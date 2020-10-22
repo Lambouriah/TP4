@@ -1,4 +1,4 @@
-package com.lamiathomas;
+package com.Reservations;
 
 public class Passagers {
     private String nomP;

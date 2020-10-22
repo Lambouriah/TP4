@@ -1,4 +1,4 @@
-package com.lamiathomas;
+package com.Reservations;
 
 public class Client {
     private String nom,ref,contact;

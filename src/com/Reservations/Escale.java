@@ -1,4 +1,4 @@
-package com.lamiathomas;
+package com.Reservations;
 
 import java.time.ZonedDateTime;
 import java.time.temporal.ChronoUnit;
@@ -9,9 +9,9 @@ public class Escale {
     private ZonedDateTime Eduree;
 
     private Aeroport aeroport; //classe association
-    private Vol vol; //classe association
+    private Vols vol; //classe association
 
-    public Escale(ZonedDateTime earrive, ZonedDateTime edepart, ZonedDateTime eduree, Aeroport aeroport, Vol vol) {
+    public Escale(ZonedDateTime earrive, ZonedDateTime edepart, ZonedDateTime eduree, Aeroport aeroport, Vols vol) {
         Earrive = earrive;
         Edepart = edepart;
         Eduree = eduree;
@@ -51,11 +51,11 @@ public class Escale {
         this.aeroport = aeroport;
     }
 
-    public Vol getVol() {
+    public Vols getVol() {
         return vol;
     }
 
-    public void setVol(Vol vol) {
+    public void setVol(Vols vol) {
         this.vol = vol;
     }
 }
